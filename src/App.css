@@ -1,0 +1,29 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-asin {
+  width: 400px;
+}
+
+.App-main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.display-asin-container {
+  width: 600px;
+  padding: 20px;
+}
+
+.display-asin-header {
+  margin-bottom: 50px;
+}
+
+.error-text {
+  color: #a94442;
+}
