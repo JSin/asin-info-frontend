@@ -5,17 +5,32 @@
   justify-content: center;
 }
 
+.search-wrapper {
+  position: relative;
+}
+
+.search-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
 .search-asin {
   width: 400px;
 }
 
 .App-main {
   margin-top: 50px;
+}
+
+.display-asin-container {
   display: flex;
   justify-content: center;
 }
 
-.display-asin-container {
+.display-asin-paper {
   width: 600px;
   padding: 20px;
 }
