@@ -1,7 +1,17 @@
 # Search ASIN and retrieve basic data from Amazon. (Technical Assessment)
 
-## Supported Node Version
+## Requirements
 * NodeJS => 10.13.0
+
+### Setup
+
+```sh
+# Install node_modules
+$ npm install
+
+# Load front-end
+$ npm start
+```
 
 ## Assumptions
 * Because ASIN data must always be up to date and there is no easy way to verify if the data is up to date, you always have to query the source.
