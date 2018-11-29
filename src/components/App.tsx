@@ -104,14 +104,18 @@ class App extends React.Component<WithStyles<typeof styles>, State> {
                 </div>
                 <Table>
                   <TableBody>
-                    <TableRow>
-                      <TableCell>Rank/Category</TableCell>
-                      <TableCell>{productDimensions}</TableCell>
-                    </TableRow>
-                    <TableRow>
-                      <TableCell>Product Dimensions</TableCell>
-                      <TableCell>{rank}</TableCell>
-                    </TableRow>
+                    {productDimensions !== '' ? (
+                      <TableRow>
+                        <TableCell>Product Dimensions</TableCell>
+                        <TableCell>{productDimensions}</TableCell>
+                      </TableRow>
+                    ) : null}
+                    {rank !== '' ? (
+                      <TableRow>
+                        <TableCell>Rank/Category</TableCell>
+                        <TableCell>{rank}</TableCell>
+                      </TableRow>
+                    ) : null}
                   </TableBody>
                 </Table>
               </Paper>
